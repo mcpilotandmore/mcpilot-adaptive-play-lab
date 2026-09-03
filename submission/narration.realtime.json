@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "model": "gpt-realtime-2.1",
+  "voice": "marin",
+  "runtimeSeconds": 119,
+  "style": "Warm, confident technical product narrator. Conversational, understated, and precise. No trailer voice, no sales hype, and no added words. Use crisp consonants and brief natural sentence pauses. Pronounce MCPilot as M-C Pilot, WebMCP as Web M-C-P, apply_approved_tune as apply approved tune, and undo_last_tune as undo last tune.",
+  "segments": [
+    {
+      "id": "01-baseline",
+      "start": 0,
+      "end": 8,
+      "text": "MCPilot turns a player's twenty-second signal course into device-local evidence, not a diagnosis."
+    },
+    {
+      "id": "02-request",
+      "start": 8,
+      "end": 12,
+      "text": "The request is ready. I send it to the browser agent."
+    },
+    {
+      "id": "03-real-tools",
+      "start": 12,
+      "end": 30,
+      "text": "The agent calls three real WebMCP tools. Inspect reads live state. Signals returns the completed run with its source and limits. Propose creates the smallest reversible plan that matches the player's selected needs, without changing a setting."
+    },
+    {
+      "id": "04-exact-diff",
+      "start": 30,
+      "end": 44,
+      "text": "Here is the exact diff: two-hand to one-hand-left, and full motion to reduced motion. The page still exposes six tools. Apply does not exist, and the active settings remain untouched."
+    },
+    {
+      "id": "05-human-gate",
+      "start": 44,
+      "end": 54,
+      "text": "Only the player can approve. That visible click changes the capability surface. Apply approved tune becomes tool seven."
+    },
+    {
+      "id": "06-bounded-apply",
+      "start": 54,
+      "end": 64,
+      "text": "The agent submits only the approved proposal I D. Page code rejects changed values, stale plans, or a second application."
+    },
+    {
+      "id": "07-live-least-privilege",
+      "start": 64,
+      "end": 74,
+      "text": "After exact apply, that tool disappears and exact undo appears. The player can see least privilege happen."
+    },
+    {
+      "id": "08-realtime-guide",
+      "start": 74,
+      "end": 96,
+      "text": "MCPilot also has an optional OpenAI Realtime voice guide. It can explain the next step with speech and live captions, but it receives no gameplay, approval, apply, undo, or player check-in tools. The guide can help a player understand the workflow. It cannot quietly cross the player's boundaries."
+    },
+    {
+      "id": "09-comparison-gate",
+      "start": 96,
+      "end": 107,
+      "text": "Comparison appears only after a second trial and a visible check-in. Sample data can show the flow, never prove an outcome."
+    },
+    {
+      "id": "10-implementation",
+      "start": 107,
+      "end": 117,
+      "text": "This is imperative WebMCP in React. Deterministic code owns bounds, provenance, and reversal. Human decisions become actual agent permissions."
+    }
+  ]
+}

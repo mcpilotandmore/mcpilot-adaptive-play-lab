@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-09-02T06:22:47.908Z",
+  "generator": "ComfyUI 0.24.0",
+  "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+  "server": "http://127.0.0.1:8190",
+  "assets": [
+    {
+      "slug": "rift-spire",
+      "name": "Rift Spire",
+      "path": "public/hazards/rift-spire.webp",
+      "seed": 913071,
+      "sourceSize": "768x1152",
+      "outputSize": "420x700",
+      "prompt": "premium sci-fi arcade game hazard sprite, single isolated object, orthographic front view, centered and fully visible with generous empty margin, crisp unmistakable silhouette readable at icon size, high-end hard-surface 3D game art, obsidian metal with luminous danger-red, hot coral, and ultraviolet energy, sharp emissive rim lighting, pure solid black background edge to edge, no ground plane and no cast shadow, a tall split monolith pierced by a vertical white-hot dimensional fracture, asymmetric jagged crown, spear-like profile",
+      "negativePrompt": "words, letters, numbers, typography, logo, watermark, frame, border, interface, multiple objects, duplicate, environment, landscape, floor, pedestal, cast shadow, gray background, white background, gradient background, cropped, cut off, blurry, low contrast, cute, cartoon",
+      "promptId": "ecbd529a-e215-4c41-9a48-49d426afe346"
+    },
+    {
+      "slug": "pulse-mine",
+      "name": "Pulse Mine",
+      "path": "public/hazards/pulse-mine.webp",
+      "seed": 913113,
+      "sourceSize": "1152x768",
+      "outputSize": "700x420",
+      "prompt": "premium sci-fi arcade game hazard sprite, single isolated object, orthographic front view, centered and fully visible with generous empty margin, crisp unmistakable silhouette readable at icon size, high-end hard-surface 3D game art, obsidian metal with luminous danger-red, hot coral, and ultraviolet energy, sharp emissive rim lighting, pure solid black background edge to edge, no ground plane and no cast shadow, a squat orbital proximity mine, one blazing circular reactor eye, six uneven armored radial fins, broad aggressive profile",
+      "negativePrompt": "words, letters, numbers, typography, logo, watermark, frame, border, interface, multiple objects, duplicate, environment, landscape, floor, pedestal, cast shadow, gray background, white background, gradient background, cropped, cut off, blurry, low contrast, cute, cartoon",
+      "promptId": "009fa309-c884-4333-8a68-dfd83e730460"
+    },
+    {
+      "slug": "static-thorn",
+      "name": "Static Thorn",
+      "path": "public/hazards/static-thorn.webp",
+      "seed": 913229,
+      "sourceSize": "768x1152",
+      "outputSize": "420x700",
+      "prompt": "premium sci-fi arcade game hazard sprite, single isolated object, orthographic front view, centered and fully visible with generous empty margin, crisp unmistakable silhouette readable at icon size, high-end hard-surface 3D game art, obsidian metal with luminous danger-red, hot coral, and ultraviolet energy, sharp emissive rim lighting, pure solid black background edge to edge, no ground plane and no cast shadow, a skeletal open-frame vertical tripwire pylon with large negative-space gaps, two offset hooked arms, exposed coils around a thin crackling ultraviolet energy spine, crooked thorn silhouette, asymmetrical, not a solid pillar, not a crystal, not an obelisk",
+      "negativePrompt": "words, letters, numbers, typography, logo, watermark, frame, border, interface, multiple objects, duplicate, environment, landscape, floor, pedestal, cast shadow, gray background, white background, gradient background, cropped, cut off, blurry, low contrast, cute, cartoon",
+      "promptId": "f1167b23-876e-4e63-b164-8638fe2b385c"
+    }
+  ]
+}

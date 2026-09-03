@@ -1,0 +1,37 @@
+
+
+What if player approval did more than confirm a dialog—what if it changed what an agent was technically able to do?
+
+MCPilot Adaptive Interactive Play Lab is a playable accessibility lab built for the OpenAI WebMCP Challenge. A player completes a short trial. A browser agent reads compact, source-labeled interaction signals and proposes one bounded, reversible tune. The mutating apply tool is absent until the player reviews the exact plan and approves it. After the same player tests the adaptation, comparison remains absent until they answer or explicitly skip a visible experience check-in.
+
+The loop: play → inspect → propose → approve → play again → verify → undo.
+
+Post-video live validation (not shown in this 1:59 demo)
+Baseline: trial-ebaf831f-a54c-4359-99a8-69253269ad4f
+Adapted: trial-b6cf2c66-4577-4153-bc9d-d07eb733c6ae
+Player check-in: Worse for me
+- Score: 1750 → 1750 (0)
+- Accuracy: 100% → 100% (0 pt)
+- Collision rate: 0/10s → 0/10s (0/10s)
+- Median collect time: 2307 ms → 2970 ms (+663 ms)
+Verdict: needs another iteration
+Result: Accuracy: 100% to 100% (0 pt). The run did not produce enough qualifying gains to clear the product's success policy, so the page calls for another iteration.
+Player observation: The player selected Worse for me through the visible player check-in after the adapted trial.
+Audio evidence (human confirmed): A complete Realtime guide reply was audibly confirmed on Sites v18 while captions and Reply audio playing were visible; the timed cutoff returned Mic off. This does not verify game cues, manual Stop/recovery, iOS, or signed-out use.
+
+Live app: https://second-player-lab.asterai.chatgpt.site/
+Public source: https://github.com/mcpilotandmore/mcpilot-adaptive-play-lab
+Immutable release: v1.0.0
+
+00:00 Human baseline and handoff
+00:08 Request sent to the browser agent
+00:12 Three real WebMCP calls
+00:30 Exact proposed diff
+00:44 Player approval creates tool 7
+00:54 Exact one-shot apply
+01:04 Apply removed · Undo added
+01:14 Optional Realtime guide boundaries
+01:36 Check-in-gated comparison design
+01:47 How dynamic registration works
+
+Built with React, TypeScript, Vinext, the imperative WebMCP API, and an optional captioned OpenAI Realtime voice guide. Gameplay telemetry and permission state stay device-local; microphone audio and a bounded page-state summary go to OpenAI only while voice is connected, and the standard API key remains server-side.

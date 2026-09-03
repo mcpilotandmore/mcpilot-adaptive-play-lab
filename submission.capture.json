@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "thumbnail": {
+    "sourcePath": "outputs/captures/01-apply-absent-iab.png",
+    "outputPath": "outputs/final/thumbnail-16x9.png"
+  },
+  "gallery": [
+    {
+      "sourcePath": "outputs/captures/01-apply-absent-iab.png",
+      "outputPath": "outputs/final/gallery-01-apply-absent.png",
+      "label": "06 · APPLY ABSENT",
+      "placement": "bottom"
+    },
+    {
+      "sourcePath": "outputs/captures/03-apply-added-iab.png",
+      "outputPath": "outputs/final/gallery-02-apply-added.png",
+      "label": "07 · APPLY ADDED",
+      "placement": "bottom"
+    },
+    {
+      "sourcePath": "outputs/captures/04-applied-undo-added-iab.png",
+      "outputPath": "outputs/final/gallery-03-exact-apply.png",
+      "label": "07 · APPLY OUT · UNDO IN",
+      "placement": "top"
+    }
+  ]
+}

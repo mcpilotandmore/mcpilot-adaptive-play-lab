@@ -1,0 +1,121 @@
+1
+00:00:00,000 --> 00:00:03,500
+This player runs a short course once,
+
+2
+00:00:03,500 --> 00:00:08,000
+creating device-local, source-labeled
+evidence—not a diagnosis.
+
+3
+00:00:08,000 --> 00:00:12,000
+The request is already pasted.
+I press Send.
+
+4
+00:00:12,000 --> 00:00:16,000
+The browser agent calls three real
+WebMCP tools.
+
+5
+00:00:16,000 --> 00:00:21,000
+It inspects the live lab and reads
+the played signals.
+
+6
+00:00:21,000 --> 00:00:30,000
+Then it proposes the smallest reversible
+tune that preserves the challenge.
+
+7
+00:00:30,000 --> 00:00:35,000
+The exact before-and-after values
+are visible.
+
+8
+00:00:35,000 --> 00:00:39,000
+But Apply does not exist.
+
+9
+00:00:39,000 --> 00:00:41,500
+Only the player can approve.
+
+10
+00:00:41,500 --> 00:00:44,000
+Their click creates
+apply_approved_tune as tool seven.
+
+11
+00:00:44,000 --> 00:00:49,000
+The agent applies only that approved
+revision, once.
+
+12
+00:00:49,000 --> 00:00:54,000
+Apply disappears, and exact undo
+takes its place.
+
+13
+00:00:54,000 --> 00:01:00,000
+The same player tests the reviewed
+settings on the same course.
+
+14
+00:01:00,000 --> 00:01:04,000
+The agent never plays.
+
+15
+00:01:04,000 --> 00:01:08,000
+Comparison is still absent.
+
+16
+00:01:08,000 --> 00:01:11,000
+The player gives an uncoached check-in.
+
+17
+00:01:11,000 --> 00:01:14,000
+Only then does
+compare_play_trials appear.
+
+18
+00:01:14,000 --> 00:01:19,000
+That tool returns the real, source-linked
+result shown here.
+
+19
+00:01:19,000 --> 00:01:24,000
+In this run,
+[EXACT HEADLINE DELTA].
+
+20
+00:01:24,000 --> 00:01:29,000
+It shows every material regression
+and the player's response.
+
+21
+00:01:29,000 --> 00:01:36,000
+The verdict is [EXACT VERDICT].
+
+22
+00:01:36,000 --> 00:01:42,000
+Finally, exact undo restores
+the prior settings
+
+23
+00:01:42,000 --> 00:01:47,000
+without deleting the completed evidence.
+
+24
+00:01:47,000 --> 00:01:51,000
+This is imperative WebMCP registration
+inside a React page.
+
+25
+00:01:51,000 --> 00:01:54,000
+Deterministic code owns bounds,
+provenance, verdicts, and undo.
+
+26
+00:01:54,000 --> 00:01:57,000
+The agent never receives approval
+or check-in tools.

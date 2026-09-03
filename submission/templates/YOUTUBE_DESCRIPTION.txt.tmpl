@@ -1,0 +1,34 @@
+{{PREVIEW_NOTICE}}
+
+What if player approval did more than confirm a dialog—what if it changed what an agent was technically able to do?
+
+{{PROJECT_NAME}} is a playable accessibility lab built for the OpenAI WebMCP Challenge. A player completes a short trial. A browser agent reads compact, source-labeled interaction signals and proposes one bounded, reversible tune. The mutating apply tool is absent until the player reviews the exact plan and approves it. After the same player tests the adaptation, comparison remains absent until they answer or explicitly skip a visible experience check-in.
+
+The loop: play → inspect → propose → approve → play again → verify → undo.
+
+Post-video live validation (not shown in this 1:59 demo)
+Baseline: {{BASELINE_TRIAL_ID}}
+Adapted: {{ADAPTED_TRIAL_ID}}
+Player check-in: {{PLAYER_CHECK_IN}}
+{{METRIC_TABLE}}
+Verdict: {{VERDICT_LABEL}}
+Result: {{HEADLINE_SENTENCE}} {{VERDICT_SENTENCE}}
+Player observation: {{PLAYER_OBSERVATION}}
+Audio evidence ({{AUDIO_STATUS}}): {{AUDIO_OBSERVATION}}
+
+Live app: {{LIVE_URL}}
+Public source: {{REPOSITORY_URL}}
+Immutable release: {{RELEASE_TAG}}
+
+00:00 Human baseline and handoff
+00:08 Request sent to the browser agent
+00:12 Three real WebMCP calls
+00:30 Exact proposed diff
+00:44 Player approval creates tool 7
+00:54 Exact one-shot apply
+01:04 Apply removed · Undo added
+01:14 Optional Realtime guide boundaries
+01:36 Check-in-gated comparison design
+01:47 How dynamic registration works
+
+Built with React, TypeScript, Vinext, the imperative WebMCP API, and an optional captioned OpenAI Realtime voice guide. Gameplay telemetry and permission state stay device-local; microphone audio and a bounded page-state summary go to OpenAI only while voice is connected, and the standard API key remains server-side.

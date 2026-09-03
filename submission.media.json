@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "videoPath": "outputs/final/master-1080p.mp4",
+  "captionsPath": "submission/ready/DEMO_CAPTIONS.srt",
+  "thumbnailPath": "outputs/final/thumbnail-16x9.png",
+  "galleryPaths": [
+    "outputs/final/gallery-01-apply-absent.png",
+    "outputs/final/gallery-02-apply-added.png",
+    "outputs/final/gallery-03-exact-apply.png"
+  ],
+  "requirements": {
+    "videoWidth": 1920,
+    "videoHeight": 1080,
+    "minimumDurationSeconds": 118,
+    "maximumDurationSeconds": 179.5,
+    "minimumFrameRate": 24,
+    "maximumFrameRate": 60,
+    "minimumAudioSampleRate": 44100,
+    "minimumThumbnailWidth": 1280,
+    "minimumThumbnailHeight": 720,
+    "minimumGalleryWidth": 1280,
+    "minimumGalleryHeight": 720,
+    "targetIntegratedLufsMinimum": -18,
+    "targetIntegratedLufsMaximum": -12,
+    "maximumTruePeakDbfs": -1
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "project": {
+    "name": "MCPilot Adaptive Interactive Play Lab",
+    "tagline": "Your approval changes what the agent can do."
+  },
+  "artifacts": {
+    "liveUrl": "https://second-player-lab.asterai.chatgpt.site/",
+    "repositoryUrl": "https://github.com/mcpilotandmore/mcpilot-adaptive-play-lab",
+    "releaseTag": "v1.0.0",
+    "applicationCommit": "cb7f19545b1c22bb32003435a5655459ea2945c9",
+    "videoUrl": "https://youtu.be/etHmptvGNvc",
+    "videoRuntimeSeconds": 119,
+    "sitesVersion": 21,
+    "devpostUrl": null
+  },
+  "humanEvidence": {
+    "baselineTrialId": "trial-ebaf831f-a54c-4359-99a8-69253269ad4f",
+    "adaptedTrialId": "trial-b6cf2c66-4577-4153-bc9d-d07eb733c6ae",
+    "playerCheckIn": "worse",
+    "verdict": "needs_another_iteration",
+    "selectedNeed": "One-hand-left controls and reduced motion",
+    "challengePreserved": "The player still steers, collects signals, and avoids visible hazards on the same timed course.",
+    "interactionPathTested": "In-app browser WebMCP: inspect, read signals, propose, visible approval, exact apply, then exact undo.",
+    "headlineMetric": "accuracyPercent",
+    "baselineMetrics": {
+      "score": 1750,
+      "accuracyPercent": 100,
+      "collisionRatePer10s": 0,
+      "medianResponseMs": 2307
+    },
+    "adaptedMetrics": {
+      "score": 1750,
+      "accuracyPercent": 100,
+      "collisionRatePer10s": 0,
+      "medianResponseMs": 2970
+    },
+    "playerObservation": "The player selected Worse for me through the visible player check-in after the adapted trial.",
+    "audioEvidence": {
+      "status": "human_confirmed",
+      "observation": "A complete Realtime guide reply was audibly confirmed on Sites v18 while captions and Reply audio playing were visible; the timed cutoff returned Mic off. This does not verify game cues, manual Stop/recovery, iOS, or signed-out use."
+    }
+  },
+  "buildEvidence": {
+    "productTestCount": 101,
+    "lintPassed": true,
+    "typecheckPassed": true,
+    "productTestsPassed": true,
+    "productionBuildPassed": true,
+    "releaseHeadersPassed": true,
+    "productionLifecyclePassed": true
+  },
+  "verification": {
+    "devpostRegistrationComplete": false,
+    "entrantEligibilityConfirmed": false,
+    "liveSignedOutInChatgpt": false,
+    "liveSignedOutInChrome": false,
+    "chromeWebMcpLifecyclePassed": false,
+    "repositorySignedOut": false,
+    "repositorySetupVerifiedFromCleanCheckout": true,
+    "licenseVisibleAtRepositoryTop": false,
+    "videoSignedOut": true,
+    "videoAudioCoversBuildAndWebMcp": true,
+    "videoMediaRightsCleared": false,
+    "videoCaptionsChecked": true,
+    "approvalTransitionContinuousInVideo": false,
+    "samePlayerTrialsVisibleInVideo": false,
+    "publicResultMatchesEvidence": false,
+    "coldJudgeReviewPassed": false,
+    "noPersonalInformation": true,
+    "publicAccessCommittedThroughJudging": false
+  },
+  "freeze": {
+    "finalNameReconciled": true,
+    "claimsReconciled": true,
+    "publicArtifactsFrozen": false,
+    "frozenAt": null
+  }
+}
