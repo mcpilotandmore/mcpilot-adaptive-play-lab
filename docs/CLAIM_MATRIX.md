@@ -1,5 +1,7 @@
 # Submission claim matrix
 
+> Historical pre-publication claim audit. It preserves the evidence boundaries at the time each test was run; see the repository README and judge instructions for current public submission status.
+
 Use this file for the final reconciliation pass across the public repository, Devpost entry, video narration, and live app. A claim may move into public copy only when its evidence and boundary travel with it.
 
 Current canonical application artifact: owner-only Sites version 21, application commit `cb7f19545b1c22bb32003435a5655459ea2945c9`. Version 21 has exact-source tests, clean-checkout verification, packaging, and private deployment. Its readability changes have not received a new interactive browser or independent comprehension pass. The latest authenticated UI/WebMCP/audio-sink smoke and owner-confirmed audible Realtime reply remain version 18; the latest complete human-played production WebMCP lifecycle remains version 12.

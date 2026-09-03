@@ -1,5 +1,7 @@
 # WebMCP evaluation evidence
 
+> Historical evidence ledger. Deployment-access statements describe the conditions under which each test was recorded; see the repository README and judge instructions for current public submission status.
+
 Status values: `PASS`, `FAIL`, `BLOCKED`, `NOT RUN`. A `PASS` applies only to the artifact and method named in its evidence cell.
 
 - Current deployed artifact: owner-only Sites version 21 at `https://second-player-lab.asterai.chatgpt.site`

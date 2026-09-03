@@ -1,8 +1,8 @@
 # Judge testing instructions — 60–90 second interaction tour
 
-> Current release caveat: Sites version 14 is still owner-only. Do not request or share entrant credentials. The 60–90 second target excludes agent response latency. Use these instructions only after the site opens signed out.
+> No login or entrant credentials are required. The live challenge site is public. The 60–90 second target excludes agent response latency.
 
-Open the live app beside a WebMCP-capable ChatGPT conversation, then click **Reset**.
+Open the live app in ChatGPT's in-app browser, then click **Reset**.
 
 1. Confirm **WEBMCP LIVE · 6 TOOLS** and **APPLY ABSENT**.
 2. Click **Load sample baseline**. This is fictional workflow evidence, not an outcome claim.
@@ -38,6 +38,6 @@ Open the live app beside a WebMCP-capable ChatGPT conversation, then click **Res
 
 The key behavior is not an agent recommendation: a visible player decision changes which WebMCP capability technically exists.
 
-## Submission-field version — use only after signed-out verification
+## Submission-field version
 
-`[AFTER PUBLIC ACCESS IS VERIFIED: No credentials required.]` Start with the **60–90 second interaction tour** above. The loaded baseline is explicitly fictional and the app must label any mixed comparison `demo_only`; use the full same-player path only to inspect the player check-in gate.
+No login or credentials required. Open the live URL in ChatGPT's in-app browser and click **Load sample baseline**. Ask the agent: `Inspect my baseline and tune the game with the smallest reversible change that preserves the challenge.` Review the visible proposal and click **Approve exact plan** yourself. Ask the agent to apply the approved plan, complete the adapted trial, then ask it to compare and undo. Watch Apply appear only after approval, disappear after one exact use, and be replaced by Undo. The sample-mixed result remains explicitly `demo_only`.

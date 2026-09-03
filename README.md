@@ -76,7 +76,7 @@ The sample control seeds only clearly labeled fictional evidence. It does not cr
 | Release gate | The version-21 application source passes lint, strict TypeScript, 101 automated tests, production build, clean-checkout verification, packaging, and deployment. The public 1:59 video has captions and a completed YouTube copyright check. |
 | Final played-pair result | Both trials were played on `signal-course-v1`. Score stayed `1750 → 1750`, accuracy stayed `100% → 100%`, and collision rate stayed `0 → 0/10s`; median collection time regressed `2307 → 2970 ms`. The player selected **Worse for me**, so WebMCP returned `needs_another_iteration` with no improvement claim. |
 
-In connected Chrome 151, instrumentation observed one running audio context and one preview oscillator start/stop. The Chrome WebMCP lifecycle remains blocked until the testing flag is enabled, and no human has confirmed that the tone is audible.
+In connected Chrome 151, instrumentation observed one running audio context and one preview oscillator start/stop. The challenge demo and recorded WebMCP lifecycle use ChatGPT's in-app browser; Chrome is an optional alternate path that requires its WebMCP testing flag. Human-audible game cues remain unclaimed.
 
 These results are not evidence of intended-judge-model reliability across the prompt suite, a Chrome WebMCP lifecycle pass, accessibility benefit, independent presentation comprehension, human-audible game cues, or broad cross-browser/device voice reliability. See the [final played-pair evidence](docs/evidence/2026-09-03-final-played-pair.md), [evaluation ledger](docs/EVAL_RESULTS.md), [version-20 MCPilot rename release](docs/evidence/2026-09-02-version-20-mcpilot-rename.md), [version-19 trial-copy release](docs/evidence/2026-09-02-version-19-trial-copy.md), [version-18 Realtime playback recovery](docs/evidence/2026-09-02-version-18-realtime-playback-recovery.md), [version-17 Realtime voice release](docs/evidence/2026-09-02-version-17-realtime-voice.md), [version-16 hazard-encounter record](docs/evidence/2026-09-02-version-16-hazard-encounters.md), [version-15 hazard-identity record](docs/evidence/2026-09-01-version-15-hazard-identities.md), [version-14 post-game handoff record](docs/evidence/2026-09-01-version-14-postgame-handoff.md), [version-13 visible-WebMCP redesign](docs/evidence/2026-09-01-version-13-visible-webmcp-redesign.md), [version-12 human-played lifecycle](docs/evidence/2026-09-01-version-12-human-played-lifecycle.md), [version-10 permission-lifecycle record](docs/evidence/2026-08-28-version-10-permission-lifecycle.md), [version-9 judge-presentation record](docs/evidence/2026-08-28-version-9-judge-presentation.md), [version-8 presentation record](docs/evidence/2026-08-28-version-8-presentation.md), [version-7 hardening record](docs/evidence/2026-08-28-version-7-hardening.md), [lifecycle trace](docs/evidence/2026-08-26-codex-iab-webmcp.md), and [proof-carrying comparison trace](docs/evidence/2026-08-26-proof-carrying-comparison.md).
 
@@ -121,7 +121,7 @@ Read tools use `readOnlyHint`. Registrations use `AbortSignal` cleanup. Schemas 
 - Focus indicators, labeled controls, and redundant non-color game cues
 - Device-local state with no diagnosis, application account, or telemetry upload
 
-Automated checks cover the specific behaviors recorded above; real-human accessibility acceptance remains a release gate.
+Automated checks cover the specific behaviors recorded above; no real-human accessibility acceptance or accessibility-benefit claim is made.
 
 ## Run locally
 
@@ -132,7 +132,7 @@ npm ci
 npm run dev
 ```
 
-Open the printed local URL. The Codex in-app browser is the browser with recorded WebMCP lifecycle evidence in this repository. For local Chrome testing, enable `chrome://flags/#enable-webmcp-testing` in an isolated test profile and relaunch Chrome. Our connected Chrome 151 preflight had that flag disabled, so its WebMCP lifecycle validation remains `BLOCKED`.
+Open the printed local URL. ChatGPT's in-app browser is the path used for the recorded WebMCP lifecycle and competition demo. Chrome is an optional alternate path; to test it locally, enable `chrome://flags/#enable-webmcp-testing` in an isolated profile and relaunch Chrome.
 
 Voice is optional. To test it locally, provide `OPENAI_API_KEY` in ignored `.env.local`; the standard key is used only by the server route and is never sent to the browser. The rest of the lab runs without it.
 
@@ -212,11 +212,9 @@ The strict media gate rejects an overlong, low-resolution, silent, incorrectly e
 - [WebMCP specification](https://webmachinelearning.github.io/webmcp/)
 - [OpenAI site tools guide](https://learn.chatgpt.com/docs/webmcp)
 
-## Remaining submission gates
+## Submission artifacts
 
-Remaining gates are tracked without inflating the public claim: Devpost registration and eligibility confirmation, signed-out live checks, a WebMCP-enabled Chrome lifecycle, media-rights confirmation, cold-judge review, and final artifact freeze.
-
-Run `npm run submission:status` for the exact current blocker list. Immediately before release, `npm run submission:check` must pass in strict mode.
+The live app, public source and MIT license, tagged application release, narrated 1:59 video, and judge tour are linked above. Run `npm run verify` to reproduce the code-level checks. Entrant eligibility, media rights, and Devpost attestations are handled in the submission form rather than inferred by this repository.
 
 ## License
 

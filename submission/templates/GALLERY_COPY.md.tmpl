@@ -16,7 +16,7 @@ Capture: approval state at **07 · APPLY ADDED**, with changed values readable a
 
 ## 3 — EXACT APPLY → UNDO ADDED
 
-**The approved capability is single-use.** After the agent applies the exact reviewed revision, `apply_approved_tune` disappears and `undo_agent_tune` takes its place. Comparison remains unavailable until the player completes an adapted trial and supplies or skips the visible check-in.
+**The approved capability is single-use.** After the agent applies the exact reviewed revision, `apply_approved_tune` disappears and `undo_last_tune` takes its place. Comparison remains unavailable until the player completes an adapted trial and supplies or skips the visible check-in.
 
 Capture: the post-apply permission surface at **07 · APPLY OUT · UNDO IN**, with the changed settings and next player action visible.
 

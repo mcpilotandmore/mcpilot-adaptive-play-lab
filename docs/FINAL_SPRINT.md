@@ -1,5 +1,7 @@
 # Final sprint to submission
 
+> Historical pre-publication checklist. Some boxes intentionally remain as they were recorded; see the repository README and judge instructions for current public artifact status.
+
 Official submission deadline: **September 3, 2026 at 1:00 PM Pacific**. The rules require a judge-accessible live app, public source repository, text description, and demo video. The challenge resources also warn entrants not to change the submission, repository, or live site after the deadline until judging ends. Sources: [official rules](https://webmcp.devpost.com/rules), [challenge resources](https://webmcp.devpost.com/resources), and [OpenAI challenge page](https://openai.com/webmcp-challenge/).
 
 The earlier Wednesday-evening internal target has passed. Use the final-day critical path below and aim to submit by **10:00 AM Pacific Thursday**, leaving three hours for rule-critical recovery before the hard stop.
